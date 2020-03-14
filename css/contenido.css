@@ -1,0 +1,28 @@
+
+main{
+	margin: 0;
+	width: 50%;
+	height: 100%;
+	border: solid;
+	border-width: 1px;
+	border-color: red;
+	display: flex;
+}
+
+
+#contenido{
+	margin: 10px 0 0 100px; 
+	background: #F99696;
+	width: 50%;
+	height: 700px;
+	float: left;
+}
+
+#peticion{
+	margin: 10px 280px 0 0;
+	background: #F99696;
+	width: 25%;
+	height: 700px;
+	float: right;
+}
+

@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+@import url(contenido.css);
+@import url(informacion.css);
+@import url(ultimo.css);
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Questrial', sans-serif;
+}
+
+header{
+	margin: 10px 0 0 0;
+	border: solid;
+	border-width: 1px;
+	border-color: blue;
+	width: 100%;
+	height: 100px;
+}
+
+#contenedor{
+	margin: auto;
+	background-color: #676363;
+	width: 80%;
+	height: 100px;
+	z-index: 1;
+}
+
+#contenedor h1{
+	margin: 0 0 0 0;
+	padding: 30px;
+	text-align: center;
+	color: #F99696;
+	height: 40px;
+	width: 34%;
+}
+
+.nav-menu{
+	margin: -25px 0 0 0;
+	position: relative;
+	float: right;
+	width: 31%;
+}
+
+.nav-menu a{
+	padding: 0 20px;
+	font-size: 20px;
+	color: #F99696;
+	text-align: center;	
+}
+
+.nav-menu a:hover{
+	text-decoration: none;
+	color: #F99696;
+}
+
+#contenedor label{
+	margin: -23px 10px 0 0;
+	display: none;
+	font-size: 20px;
+	float: right;
+}
+
+#caja{
+	display: none;
+	float: right;
+}
+
+ /* Media Queries | Contenedor y nav-menu */
+
+
+@media screen and (min-width: 486px) and (max-width: 768px){
+	
+	#contenedor{
+		width: 100%
+	}
+
+
+	#contenedor h1{
+		margin: auto;
+		font-size: 20px;
+		width: 60%;
+	}
+
+	#contenedor label{
+		margin: -35px 10px 0 0;
+		display: block;
+		cursor: pointer;
+	}
+
+	.nav-menu {
+		top: 65px;
+		width: 100%;
+		display: none;
+	}
+
+	.nav-menu a{
+		text-align: center;
+		padding: 10px 0 0 0;
+		background: darkgray;
+		color: black;
+		display: block;
+		border-bottom: 1px solid rgba(51,51,51,0.5);
+		margin: 0;
+		line-height: 60px;
+		font-size: 15px;
+	}
+
+	.nav-menu a:hover{
+		text-decoration: none;
+		color: #963737;
+		background: gray;
+	}
+
+	#caja:checked + .nav-menu{
+		display: block;
+	}
+
+} 
+
+@media screen and (min-width: 769px) and (max-width: 1280px){
+	
+	#contenedor{
+		width: 100%
+	}
+
+
+	#contenedor h1{
+		margin: auto;
+		font-size: 25px;
+		width: 60%;
+	}
+
+	#contenedor label{
+		margin: -35px 10px 0 0;
+		display: block;
+		cursor: pointer;
+	}
+
+	.nav-menu {
+		
+		top: 65px;
+		width: 100%;
+		display: none;
+	}
+
+	.nav-menu a{
+		text-align: center;
+		padding: 10px 0 0 0;
+		background: darkgray;
+		color: black;
+		display: block;
+		border-bottom: 1px solid rgba(51,51,51,0.5);
+		margin: 0;
+		line-height: 60px;
+		font-size: 20px;
+
+	}
+
+	.nav-menu a:hover{
+		text-decoration: none;
+		color: #963737;
+		background: gray;
+	}
+
+	#caja:checked + .nav-menu{
+		display: block;
+	}
+
+} 
+
+@media screen and (min-width: 1281px) and (max-width: 1366px){
+	
+	#contenedor{
+		width: 100%
+	}
+
+
+	#contenedor h1{
+		margin: 0 0 0 0;
+		padding: 30px;
+		text-align: center;
+		color: #F99696;
+		font-size: 30px;
+		height: 40px;
+		width: 34%;
+	}
+
+	#contenedor label{
+		margin: -35px 10px 0 0;
+		display: block;
+		cursor: pointer;
+	}
+
+	.nav-menu{
+		margin: -25px 0 0 0;
+		position: relative;
+		float: right;
+		width: 40%;
+	}
+
+	.nav-menu a{
+		padding: 0 20px;
+		font-size: 20px;
+		color: #F99696;
+		text-align: center;	
+	}
+
+	.nav-menu a:hover{
+		text-decoration: none;
+		color: #F99696;
+	}
+
+	#contenedor label{
+		margin: -23px 10px 0 0;
+		display: none;
+		font-size: 20px;
+		float: right;
+	}
+
+	#caja{
+		display: none;
+		float: right;
+	}
+	
+} 
+
+@media screen and (min-width: 1367px) and (max-width: 1920px){
+	
+	#contenedor{
+		width: 100%
+	}
+
+
+	#contenedor h1{
+		margin: 0 0 0 0;
+		padding: 30px;
+		text-align: center;
+		color: #F99696;
+		font-size: 30px;
+		height: 40px;
+		width: 34%;
+	}
+
+	#contenedor label{
+		margin: -35px 10px 0 0;
+		display: block;
+		cursor: pointer;
+	}
+
+	.nav-menu{
+		margin: -25px 0 0 0;
+		position: relative;
+		float: right;
+		width: 40%;
+	}
+
+	.nav-menu a{
+		padding: 0 20px;
+		font-size: 20px;
+		color: #F99696;
+		text-align: center;	
+	}
+
+	.nav-menu a:hover{
+		text-decoration: none;
+		color: #F99696;
+	}
+
+	#contenedor label{
+		margin: -23px 10px 0 0;
+		display: none;
+		font-size: 20px;
+		float: right;
+	}
+
+	#caja{
+		display: none;
+		float: right;
+	}
+	
+} 
+
+/* Media Queries | Contenido y Peticion */
+
